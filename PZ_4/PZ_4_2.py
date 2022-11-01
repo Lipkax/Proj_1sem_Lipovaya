@@ -5,6 +5,6 @@ try:  # обработчик исключений
     while int(N) >= int(S):  # цикл while
         K += 1
         S += K
-        print("K = ", K, "S =", S)  # вывод чисел
+    print("K = ", K, "S =", S)  # вывод чисел
 except ValueError:  # обработчик исключений
     print("Ошибка")  # вывод ошибки
