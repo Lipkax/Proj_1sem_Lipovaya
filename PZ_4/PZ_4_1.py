@@ -14,4 +14,4 @@ try:
             n -= 1
         print('Result:', Res)
 except ValueError:
-    print('Ошибка, вы вели строку, а не число!')
+    print('Ошибка, вы вели строку, а не число!') 
