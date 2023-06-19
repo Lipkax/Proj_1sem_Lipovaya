@@ -1,0 +1,24 @@
+# Создайте базовый класс "Человек" со свойствами "имя", "возраст" и "пол". От этого
+# класса унаследуйте классы "Мужчина" и "Женщина" и добавьте в них свойства,
+# связанные с социальным положением (например, "семейное положение",
+# "количество детей" и т.д.).
+import math
+class Person:
+  def __init__(self, name: str, age: int, gender: str):
+    self.__name = name
+    self.__age = age
+    self.__gender = gender
+
+
+class Men(Person):
+  def __init__(self, name, age, gender, marital_status, numder_of_children):
+    super().__init__(name, age, gender)
+    self.marital_status = marital_status
+
+class Woman(Person):
+  def __init__(self, name, age, gender, marital status, numder of children):
+    super().__init__(name, age, gender)
+    self.numder_of_children = marital_status
+
+me = Woman('Катя', 20, 'женский', "замужем", 2)
+wo = Men('Жора', 19, 'мужской', "женат", 1)
