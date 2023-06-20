@@ -12,3 +12,4 @@ def triangle_area(a_in=a, b_in=b, c_in=c):
     """Возвращает площадь треугольника"""
     p = (a_in + b_in + c_in) * 0.5
     return (p * (p - a_in) * (p - b_in) * (p - c_in)) ** 0.5
+ 
