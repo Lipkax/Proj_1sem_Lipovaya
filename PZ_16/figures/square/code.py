@@ -1,15 +1,11 @@
 a = 15
 
-"""Функция для вычисленя периметра квадрата"""
+
+def square_perimetr(side=a):
+    """Возвращает периметр квадрата"""
+    return 4 * side
 
 
-def square_perimeter(st=a):
-    return st * 4
-
-
-"""Функция для вычисления площади квадрата"""
-
-
-def square_area(st=a):
-    return st ** 2
-
+def square_area(side=a):
+    """Возвращает площадь квадрата"""
+    return side ** 2
