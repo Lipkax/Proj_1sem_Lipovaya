@@ -1,2 +1,2 @@
-from .code import circle_perimeter, circle_area
+from .code import circle_perimetr, circle_area
 
