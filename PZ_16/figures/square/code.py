@@ -9,3 +9,4 @@ def square_perimetr(side=a):
 def square_area(side=a):
     """Возвращает площадь квадрата"""
     return side ** 2
+ 
